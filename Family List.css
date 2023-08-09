@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(0, 255, 255, 0.273);
+}
+
+h1 {
+    font-family: 'Apple Chancery';
+}
+
+.checkbox-container-alimentos {
+    columns: 3; /* Adjust the number of columns as per your preference */
+    column-gap: 20px; /* Adjust the gap between columns as per your preference */
+  }
+
+.checkbox-container-trio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create three equal-width columns */
+    grid-gap: 20px; /* Adjust the gap between columns as per your preference */
+  }
+
+.checkbox-container-trio .column {
+    display: flex;
+    flex-direction: column;
+  }
+
+.checkbox-container-quarteto {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }  
+
+.checkbox-container-quarteto .column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.checkbox {
+    display: block;
+}
